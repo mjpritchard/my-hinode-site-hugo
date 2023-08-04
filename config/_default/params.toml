@@ -47,7 +47,7 @@
 # toml-docs-start navigation
 [navigation]
     anchor = true
-    logo = "/img/logo_icon.svg"
+    logo = "/img/ceda_logo_transp_black_1.png"
     color = "body"
     fixed = true
     offset = "3.8em"
@@ -55,6 +55,7 @@
     breadcrumb = true
     toc = true
     sidebar = true
+    size = "large"
 # toml-docs-end navigation
 
 # toml-docs-start messages
@@ -141,18 +142,18 @@
 
 # toml-docs-start theme-colors
 [style]
-    primary = "#d43900"
-    secondary = "#6c757d"
-    success = "#198754"
-    info = "#0dcaf0"
-    warning = "#ffc107"
-    danger = "#dc3545"
-    light = "#f8f9fa"
-    dark = "#212529"
+    primary = "#446E9B"
+    secondary = "#999"
+    success = "#3CB521"
+    info = "#3399F3"
+    warning = "#D47500"
+    danger = "#CD0200"
+    light = "#eeeeee"
+    dark = "#333333"
 # toml-docs-end theme-colors
     themeOpacity = "10"
 # toml-docs-start font
-    themeFont = "Inter"
+    themeFont = "Lato" #"Inter"
     # themeFontPath = "https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap" # external path
     themeFontPath = "/fonts" # local path
 # toml-docs-end font
