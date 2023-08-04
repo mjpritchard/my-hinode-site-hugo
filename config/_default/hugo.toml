@@ -6,11 +6,12 @@ enableGitInfo = true
 # toml-docs-end main
 
 # additional settings
-googleAnalytics = "G-T85PPZ36GN"
+#googleAnalytics = "G-T85PPZ36GN"
 #baseURL = "http://127.0.0.1:8080/"
-baseURL = "/"
+#baseURL = "/"
+baseURL = "https://mjpritchard.github.io/my-hinode-site-hugo/"
 #relativeURLs = true
-canonifyURLs = false
+canonifyURLs = true # default false
 enableEmoji = true
 enableRobotsTXT = true
 enableInlineShortcodes = true
