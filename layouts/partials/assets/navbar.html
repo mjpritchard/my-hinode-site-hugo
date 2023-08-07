@@ -187,7 +187,7 @@
 
 <div class="container-fluid {{ if $fixed }}fixed-top{{ end }} p-0"{{ with $theme }} data-bs-theme="{{ . }}"{{ end }}>
     {{- partial "assets/page-alert.html" (dict "page" $page) -}}
-    <nav class="navbar navbar-expand-{{ $size }} {{ with $color }}bg-{{ . }}{{ end }} p-4"{{ with $theme }} data-bs-theme="{{ . }}"{{ end }}>
+    <nav class="navbar navbar-expand-{{ $size }} {{ with $color }}bg-{{ . }}{{ end }} p-1"{{ with $theme }} data-bs-theme="{{ . }}"{{ end }}>
         <div class="container-xxl p-0">
             <!-- Insert sidebar toggler when applicable -->
             <div class="d-flex">
