@@ -4,8 +4,8 @@
   weight = 10
 
 [[main]]
-  name = "Blog"
-  pageRef = "/blog/"
+  name = "News"
+  pageRef = "/news/"
   weight = 20
 
 [[main]]
@@ -26,9 +26,32 @@
   weight = 2
 
 [[main]]
+  name = "Yet Another project"
+  pageRef = "/projects/yet-another-project/"
+  parent = "Projects"
+  weight = 3
+
+[[main]]
   name = "Tags"
   pageRef = "/tags/"
   weight = 40
+
+[[main]]
+  name = "Docs"
+  pageRef = "/docs/"
+  weight = 50
+
+[[main]]
+  name = "Sample doc"
+  pageRef = "/docs/sample-doc/"
+  parent = "Docs"
+  weight = 1
+
+[[main]]
+  name = "Applying for access"
+  pageRef = "/docs/short-term-project-storage/apply-for-access-to-a-gws/"
+  parent = "Docs"
+  weight = 2
 
 [[social]]
   name = "LinkedIn"
@@ -51,7 +74,7 @@
 # toml-docs-start sample-navigation
 [[sample]]
   name = "Blog"
-  pageRef = "/blog/"
+  pageRef = "/news/"
   weight = 10
 
 [[sample]]

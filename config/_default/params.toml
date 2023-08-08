@@ -37,7 +37,7 @@
 
 # toml-docs-start home
 [home]
-    sections = ["blog", "projects"]
+    sections = ["news", "projects"]
     featurePhoto = "/img/sunrise.jpg" # source: https://unsplash.com/photos/ZX6BPboJrYk
     fullCover = false
     centerHeadline = false
@@ -48,7 +48,7 @@
 [navigation]
     anchor = true
     logo = "/img/ceda_logo_transp_black_1.png"
-    color = "body"
+    color = "body-tertiary"
     fixed = true
     offset = "3.8em"
     search = true
@@ -105,7 +105,7 @@
 # toml-docs-start sections
 [sections]
     [sections.blog]
-        title = "Blog"
+        title = "News"
         sort = "date"
         reverse = true
         nested = true
@@ -154,8 +154,8 @@
     themeOpacity = "10"
 # toml-docs-start font
     themeFont = "Lato" #"Inter"
-    # themeFontPath = "https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap" # external path
-    themeFontPath = "/fonts" # local path
+    themeFontPath = "https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600&display=swap" # external path
+    # themeFontPath = "/fonts" # local path
 # toml-docs-end font
 # toml-docs-start build
     purge = false
@@ -168,7 +168,7 @@
     # twitter = "https://twitter.com/gethinode"
     # linkedIn = ""
     github = "https://github.com/gethinode/hinode"
-    section = "blog"
+    section = "news"
     [author]
         name = "Mark Dumay"
         # twitter = "https://twitter.com/markdumay"
