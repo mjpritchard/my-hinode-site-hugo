@@ -118,4 +118,4 @@ home = ["HTML", "RSS", "REDIR"]
     path = "github.com/gethinode/mod-katex"
   [[module.imports]]
     path = "github.com/gethinode/mod-leaflet"
-# toml-docs-end modules
+

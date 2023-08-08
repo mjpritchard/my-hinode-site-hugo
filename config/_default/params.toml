@@ -104,7 +104,7 @@
 
 # toml-docs-start sections
 [sections]
-    [sections.blog]
+    [sections.news]
         title = "News"
         sort = "date"
         reverse = true
@@ -153,9 +153,9 @@
 # toml-docs-end theme-colors
     themeOpacity = "10"
 # toml-docs-start font
-    themeFont = "Lato" #"Inter"
-    themeFontPath = "https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600&display=swap" # external path
-    # themeFontPath = "/fonts" # local path
+    themeFont = "Lato"
+    themeFontPath = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" # external path
+    #themeFontPath = "/fonts" # local path
 # toml-docs-end font
 # toml-docs-start build
     purge = false

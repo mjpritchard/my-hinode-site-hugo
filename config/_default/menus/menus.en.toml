@@ -14,6 +14,11 @@
   weight = 30
 
 [[main]]
+  name = "Status"
+  pageRef = "/status/"
+  weight = 40
+
+[[main]]
   name = "Sample project"
   pageRef = "/projects/sample-project/"
   parent = "Projects"
@@ -30,11 +35,6 @@
   pageRef = "/projects/yet-another-project/"
   parent = "Projects"
   weight = 3
-
-[[main]]
-  name = "Tags"
-  pageRef = "/tags/"
-  weight = 40
 
 [[main]]
   name = "Docs"
