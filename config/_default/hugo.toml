@@ -1,5 +1,5 @@
 # toml-docs-start main
-title = "Hinode"
+title = "Hinode site on GH pages"
 copyright = "Copyright © 2023 Mark Dumay."
 paginate = 9
 enableGitInfo = true
